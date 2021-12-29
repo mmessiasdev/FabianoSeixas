@@ -1,0 +1,131 @@
+        @media (max-width: 820px) {
+            .menuSuperior i {
+                font-size: 25px;
+            }
+            .textoCentral .title {
+                font-size: 40px;
+            }
+            .textoCentral h2 {
+                font-size: 20px;
+            }
+            .menuSuperior a {
+                bottom: 4px;
+                font-size: 18px;
+            }
+            .textoCentral {
+                top: 30vh;
+            }
+            .infoSn {
+                margin-top: 100px;
+            }
+            .titleSn .infoSn {
+                display: inline;
+                /* border: 1px solid #d4ff00; */
+            }
+            .descSn h1 {
+                padding-left: 0px;
+                width: 100vw;
+                margin-top: 100px;
+                display: flex;
+                justify-content: center;
+            }
+            .descSn p {
+                padding: 30px;
+                background-color: rgb(9, 9, 9);
+                justify-content: center;
+                /* border: 1px solid #d4ff00; */
+                width: 100vw;
+            }
+            .infoSn .imgSn {
+                display: flex;
+                justify-content: center;
+                margin-top: 80px;
+                height: 200px;
+                width: 100%;
+            }
+            .titleAtuacao .principalTitle {
+                margin-top: 160px;
+                font-size: 40px;
+                /* border: 1px solid #d4ff00; */
+            }
+            .gridAtuacao {
+                display: none;
+            }
+            .inlineAtuacao {
+                display: inline-block;
+                margin-top: 150px;
+                width: 100vw;
+            }
+            .inlineAtuacao .listA {
+                overflow: hidden;
+                background-color: black;
+                width: 100vw;
+                height: 100px;
+                border: 1px solid #606060;
+            }
+            .listA h1 {
+                font-size: 30px;
+                width: 100vw;
+                display: flex;
+                justify-content: start;
+                top: 50px;
+                left: 10px;
+                font-family: "Aramis";
+                z-index: 2;
+            }
+            .listA img {
+                opacity: 40%;
+                position: relative;
+                top: -150px;
+                width: 100vw;
+            }
+            .contato {
+                position: relative;
+                display: inline-block;
+                padding-top: 50px;
+                padding-bottom: 90px;
+            }
+            .contato .espaco150px {
+                display: flex;
+            }
+            .whatsapp button {
+                height: auto;
+                background-color: #a59306fa;
+                box-shadow: black 2px 2px 0px;
+            }
+            footer hr {
+                display: none;
+            }
+            .footerFabiano .coop {
+                padding-right: 0px;
+                justify-content: center;
+            }
+            .footerFabiano .infoFooter {
+                padding-left: 30px;
+                padding-right: 30px;
+                font-size: 12px;
+            }
+            .contato {
+                margin-top: 150px;
+                grid-template-columns: 55vw 45vw;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .gridAtuacao {
+                /* border: 1px solid #d4ff00; */
+                grid-template-columns: 200px 200px 200px 200px;
+            }
+            .box div {
+                width: 200px;
+            }
+            .qrWhatsapp {
+                display: none;
+            }
+            .contato {
+                grid-template-columns: 55vw 45vw;
+            }
+            footer hr {
+                display: none;
+            }
+        }

@@ -1,0 +1,81 @@
+.contato {
+    font-family: "Flareserif 821";
+    width: 100vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 55vw 20vw 25vw;
+}
+
+.whatsapp {
+    padding: 30px;
+    /* border: 1px solid #d0ff00; */
+}
+
+.whatsapp div {
+    font-size: 30px;
+    display: flex;
+    font-family: "Aramis";
+    font-size: 20px;
+    height: 50px;
+    color: rgb(34, 33, 33);
+    border: none;
+}
+
+.whatsapp button {
+    cursor: pointer;
+    font-family: "Aramis";
+    font-size: 20px;
+    height: 50px;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.espaco10px {
+    width: 10px;
+}
+
+.whatsapp i {
+    margin-left: 15px;
+}
+
+.whatsapp h1 {
+    color: #000000;
+}
+
+.whatsapp h2 {
+    color: #949494;
+}
+
+.imgWhatsapp {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #d0ff00; */
+}
+
+.imgWhatsapp img {
+    transform: perspective(1000px) rotateY(-25deg) rotateX(10deg);
+    height: 400px;
+}
+
+.qrWhatsapp div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.qrWhatsapp img {
+    margin-top: 25px;
+    height: 120px;
+}
+
+.qrWhatsapp h1 {
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+.contato .espaco150px {
+    display: none;
+}
