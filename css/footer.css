@@ -6,7 +6,7 @@
 }
 
 .footerFabiano h1 {
-    font-family: "Constantia";
+    font-family: 'Charis SIL', serif;
     font-weight: 400;
     color: white;
     width: 100vw;
@@ -15,7 +15,7 @@
 }
 
 .footerFabiano h2 {
-    font-family: "Constantia";
+    font-family: 'Charis SIL', serif;
     color: rgb(203, 204, 204);
     font-weight: 100;
     width: 100vw;
@@ -27,7 +27,7 @@
 .footerFabiano a {
     font-family: "Constantia";
     color: rgb(118, 111, 111);
-    font-weight: 100;
+    font-weight: 300;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
     color: rgb(203, 204, 204);
     font-size: 20px;
     margin-top: 10px;
-    font-family: "Aramis";
+    font-family: 'Poppins', sans-serif;
 }
 
 .footerFabiano footer div {
@@ -71,7 +71,7 @@
 .footerFabiano .coop {
     font-size: 10px;
     position: relative;
-    font-family: "Aramis";
+    font-family: 'Poppins', sans-serif;
     width: 100vw;
     /* border: 1px solid #d4ff00; */
     margin-top: 50px;
@@ -87,7 +87,7 @@ footer a {
 .footerFabiano .h2Footer {
     color: rgb(220, 220, 220);
     font-size: 17px;
-    font-family: "Aramis";
+    font-family: 'Poppins', sans-serif;
 }
 
 .h2Footer i {

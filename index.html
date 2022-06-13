@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="css/yanimations.css">
     <link rel="stylesheet" href="css/zresposive.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-
 
     <title>Fabiano Seixas</title>
 </head>
@@ -37,7 +39,7 @@
                 <div class="menuSuperior">
                     <div class="convCmg">
                         <i class="fas fa-comment-alt"></i>
-                        <a href="#contato">Converse Conosco</a>
+                        <a href="#mensagem">Converse Conosco</a>
                     </div>
                     <div class="redesSociais">
                         <i class="fab fa-linkedin"></i>
@@ -45,7 +47,7 @@
                     </div>
 
                 </div>
-            </header>
+            </header>   
 
             <div class="textoCentral">
                 <div class="logoHp"><img src="images/logo.png" alt=""></div>
@@ -112,6 +114,14 @@
 
                         </div>
                         <div class="listA">
+                            <h1>Bancário</h1>
+                            <div class="descAt">
+                                <img src="images/gridAtuacao/photo6.jpg" alt="">
+
+                            </div>
+
+                        </div>
+                        <!-- <div class="listA">
                             <h1>Família</h1>
                             <div class="descAt">
                                 <img src="images/gridAtuacao/photo2.jpg" alt="">
@@ -144,14 +154,6 @@
 
                         </div>
                         <div class="listA">
-                            <h1>Bancário</h1>
-                            <div class="descAt">
-                                <img src="images/gridAtuacao/photo6.jpg" alt="">
-
-                            </div>
-
-                        </div>
-                        <div class="listA">
                             <h1>Biodireito</h1>
                             <div class="descAt">
                                 <img src="images/gridAtuacao/photo7.jpg" alt="">
@@ -166,16 +168,23 @@
 
                             </div>
 
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="gridAtuacao">
-                        <div class="box"><img src="images/gridAtuacao/photo1.jpg" alt="">
+                        <div class="box">
+                            <img src="images/gridAtuacao/photo1.jpg" alt="">
                             <div>
                                 <h1>Consumidor</h1>
                             </div>
                         </div>
-                        <div class="box"><img src="images/gridAtuacao/photo2.jpg" alt="">
+                        <div class="box">
+                            <img src="images/gridAtuacao/photo6.jpg" alt="">
+                            <div>
+                                <h1>Bancário</h1>
+                            </div>
+                        </div>
+                        <!-- <div class="box"><img src="images/gridAtuacao/photo2.jpg" alt="">
                             <div>
                                 <h1>Família</h1>
                             </div>
@@ -195,11 +204,6 @@
                                 <h1>Penal</h1>
                             </div>
                         </div>
-                        <div class="box"><img src="images/gridAtuacao/photo6.jpg" alt="">
-                            <div>
-                                <h1>Bancário</h1>
-                            </div>
-                        </div>
                         <div class="box"><img src="images/gridAtuacao/photo7.jpg" alt="">
                             <div>
                                 <h1>Biodireito</h1>
@@ -209,7 +213,7 @@
                             <div>
                                 <h1>Trânsito</h1>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -218,18 +222,41 @@
 
     </div>
     <div class="espaco150px" id="contato"></div>
+    <div class="mensagem" id="mensagem">
+        <img src="images/wallpaper.jpg">
+        <div class="inputPadding">
+            <h1>
+                Envie seu caso pra gente.
+            </h1>
+            <div class="inputs">
+                <form action="https://formsubmit.co/mmessiasdev@gmail.com" method="POST">
+                    <label>
+                        Nome
+                        <input placeholder="digite seu Nome" type="text" name="name" required>
+                    </label>
+                    <label>
+                        Número
+                        <input placeholder="digite seu Número de Telefone" type="text" name="number" required>
+                    </label>
+                    <label>
+                        Mensagem
+                        <textarea placeholder="digite seu Caso" name="message" required></textarea>
+                    </label>
+                    <input type="hidden" name="_next" value="http://www.fabianoseixas.adv.br/obrigado">
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="_captcha" value="false">
+               </form>
+            </div>
+        </div>
+    </div>
 
-    <div class="contato">
+    <div class="contato" id="whatsapp">
         <div class="whatsapp">
             <h1>Converse com um advogado pelo WhatsApp</h1>
             <h2>Contate-nos e tire suas dúvidas</h2>
-            <div class="espaco150px"></div>
-            <div class="espaco150px"></div>
-            <button onclick="window.location.href='https://api.whatsapp.com/send?phone=557194146265'">Converse com Fabiano Seixas <i class="fab fa-whatsapp"></i></button>
-            <div>
-                <h3>Ou</h3>
-            </div>
-            <button onclick="window.location.href='seixas@fabianoseixas.adv.br'">Nos mande um E-mail<i class="far fa-envelope"></i></button>
+
+            <button class="buttonPrimary" onclick="window.location.href='https://api.whatsapp.com/send?phone=557194146265'">Converse com Fabiano Seixas <i class="fab fa-whatsapp"></i></button>
+
         </div>
         <div class="espaco150px"></div>
         <div class="imgWhatsapp"><img src="images/qrCodeCel.png" alt=""></div>
