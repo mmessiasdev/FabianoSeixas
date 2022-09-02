@@ -123,11 +123,11 @@
 
 
 
-            .mensagem .inputPadding{
+            #mensagem .inputPadding{
                 padding: 0px;
         
             }
-            .mensagem .inputs{
+            #mensagem .inputs{
                 width: 90%;
                 padding: 0px;
                 padding-block: 35px;
@@ -183,7 +183,7 @@
                 color: white;
                 margin-bottom: 40px;
             }
-            .mensagem img{
+            #mensagem img{
                 opacity: 10%;
             
             }
