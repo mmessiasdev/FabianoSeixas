@@ -1,3 +1,11 @@
+#root{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
 
 * {
     margin: 0;
@@ -94,4 +102,26 @@ body .homePage{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 
+}
+
+
+@media (max-width: 900px){
+    .title .h1{
+        font-size: 20px;
+        font-weight: 500;
+        width: 70%;
+    }
+    .header{
+        padding-inline: 30px;
+        justify-content: center;
+    }
+    .title .h1{
+        padding-inline: 30px;
+    }
+    .convCmg a{
+        font-size: 25px
+    }
+    .menuSuperior img{
+        height: 45px;
+    }
 }

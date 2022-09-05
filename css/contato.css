@@ -172,3 +172,13 @@ form label{
 .contato .espaco150px {
     display: none;
 }
+
+.inputs h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #5b5b5b;
+}
