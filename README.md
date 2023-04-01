@@ -7,7 +7,7 @@
 
 # Fabiano Seixas Acessoria Jurídica
 
-### Aplicação de sistema e chatbox do whatsapp para Fabiano Seixas - Advogado e dono da sua empresa de Acessoria Jurídiaca.
+### Aplicação de sistema e ChatBot do whatsapp para Fabiano Seixas - Advogado e dono da sua empresa de Acessoria Jurídiaca.
 
 
 ### Programado por:
